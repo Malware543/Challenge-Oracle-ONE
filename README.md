@@ -1,6 +1,6 @@
 # Conversor de Divisas, Temperatura y Medidas
 
-El siguiente programa es un conversor versátil que te permitirá convertir entre diferentes unidades en tres categorías: divisas, temperatura y medidas. El programa se basa en los videos de demostración de la herramienta, pero se ha agregado un menú adicional para seleccionar el tipo de motor de conversión deseado.
+El siguiente programa desarrollado con JDK 8, es un conversor versátil que te permitirá convertir entre diferentes unidades en tres categorías: divisas, temperatura y medidas. El programa se basa en los videos de demostración de la herramienta, pero se ha agregado un menú adicional para seleccionar el tipo de motor de conversión deseado.
 
 ## Categorías disponibles:
 
@@ -16,5 +16,9 @@ El siguiente programa es un conversor versátil que te permitirá convertir entr
 4. Repite el proceso para realizar más conversiones o elige otra categoría de conversión.
 
 Recuerda que el programa funciona en base a las tasas de cambio actualizadas para las conversiones de divisas y utiliza las fórmulas estándar para las conversiones de temperatura y medidas.
+
+# Imagenes de prueba
+
+![captura1]()
 
 ¡Disfruta de este práctico conversor y facilita tus tareas de conversión de unidades!

@@ -315,7 +315,7 @@ public class Conversor{
         panel.add(comboBox);
 
         // Mostrar el JOptionPane con el JPanel personalizado
-        int resultado = JOptionPane.showConfirmDialog(null, panel, "Menú con JComboBox", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+        int resultado = JOptionPane.showConfirmDialog(null, panel, "Menú Principal", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
 
         // Verificar si se seleccionó "OK" y obtener la opción seleccionada
         if (resultado == JOptionPane.OK_OPTION) {
@@ -325,10 +325,10 @@ public class Conversor{
                 else if(opcionSeleccionada == "Conversor de Temperatura") c.temperatura();
                 else if(opcionSeleccionada == "Conversor de Medidas") c.medicion();
             } else {
-                System.out.println("Ninguna opción seleccionada.");
+                JOptionPane.showMessageDialog(null, "Ninguna opción seleccionada.");
             }
         } else {
-            System.out.println("Operación cancelada.");
+            JOptionPane.showMessageDialog(null, "Operación cancelada.");
         }
     }
 
@@ -337,6 +337,6 @@ public class Conversor{
         if(resultado == JOptionPane.OK_OPTION){
             Conversor c = new Conversor();
             c.menuPrincipal();
-        }
+        } else JOptionPane.showMessageDialog(null, "Que la vida te brinde siempre nuevos caminos y que nuestros destinos vuelvan a cruzarse. ¡Hasta pronto!");
     }
 }
