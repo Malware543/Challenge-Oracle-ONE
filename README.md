@@ -19,6 +19,6 @@ Recuerda que el programa funciona en base a las tasas de cambio actualizadas par
 
 # Imagenes de prueba
 
-![captura1]()
+![captura1](https://drive.google.com/file/d/1ITtU9Zr7sKjahLARTAy7GUvaYctfHdmq/view?usp=sharing "Menu principal")
 
 ¡Disfruta de este práctico conversor y facilita tus tareas de conversión de unidades!
